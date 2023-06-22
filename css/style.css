@@ -822,6 +822,9 @@ section {
   }
 }
 @media screen and (max-width: 1432px) {
+  * {
+    zoom: 96%;
+  }
   .container {
     padding: 7rem 11rem;
   }
@@ -844,5 +847,13 @@ section {
   }
   .main-title h2 .bg-text {
     font-size: 5.5rem;
+  }
+}
+@media screen and (max-width: 2000px) {
+  .contact, .about, #blogs, #portfolio, .controls {
+    zoom: 77%;
+  }
+  .home {
+    zoom: 80%;
   }
 }/*# sourceMappingURL=style.css.map */
